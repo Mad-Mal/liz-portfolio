@@ -1,0 +1,31 @@
+
+
+.outerAboutWrap {
+    width: 100%;
+}
+
+.innerAboutWrap {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.imgContainer {
+
+}
+
+.lizImg {
+
+}
+
+.textContainer {
+
+}
+
+.aboutHead {
+
+}
+
+.aboutPara {
+    
+}
