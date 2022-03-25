@@ -1,0 +1,13 @@
+
+.outerFootWrap {
+    width: 100%;
+    height: 30rem;
+    background-image: linear-gradient(to right bottom, #ab9dd6a6, #301934ad), url(../img/waves-purple-blue-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: bottom;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 55%);
+}
+
+.innerFootWrap {
+    width: 95%;
+}
