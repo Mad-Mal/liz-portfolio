@@ -2,22 +2,41 @@
 import React from 'react'
 
 //Style imports
-
+import '../styles/gallery.css'
 
 let pictures = [
-    'https://drive.google.com/file/d/1mQIvDrr-6KWQYbtN_YWWiogtdf9Zi0Jf/view?usp=sharing',
-    'https://drive.google.com/file/d/14gJtyMBXfiBITy654E1iNuOeP5h9KfgI/view?usp=sharing',
-    'https://drive.google.com/file/d/1hPSOqXjbfZ_IxhhbslOW1WEZHG-gVmBj/view?usp=sharing',
-    'https://drive.google.com/file/d/1lGmMDYzWUqa1RfU0XgSCxpgbpBHo8YWE/view?usp=sharing',
-    'https://drive.google.com/file/d/1c91yFQLKy0beAOkKUwXXTeqRLq3EHPcu/view?usp=sharing'
+    {
+      'index': '0',
+      'pic': 'src/img/lizPortPics/butterfly.jpeg'
+    },
+    {
+      'index': '1',
+      'pic': 'src/img/lizPortPics/cherries.jpeg'
+    },
+    {
+      'index': '2',
+      'pic': 'src/img/lizPortPics/musicalartist.jpeg'
+    },
+    {
+      'index': '3',
+      'pic': 'src/img/lizPortPics/snakeandflowers.jpeg'
+    },
+    {
+      'index': '4',
+      'pic': 'src/img/lizPortPics/tiger.jpeg'
+    }
 ];
 
 const Gallery = () => {
   return (
     <div className='outerGalleryWrap'>
+      {pictures.map(pic => {
         <div className='innerGalleryWrap'>
-            
+              <div className='eleWrap' key={pic.index}>
+                {pic.pic}
+              </div>
         </div>
+      })}
     </div>
   )
 }
