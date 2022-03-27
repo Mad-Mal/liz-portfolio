@@ -1,0 +1,25 @@
+
+.outerGalleryWrap {
+    width: 100%;
+}
+
+.innerGalleryWrap {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.eleWrap {
+    width: 30%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.mappedPics {
+    width: 100%;
+    height: 25rem;
+}
