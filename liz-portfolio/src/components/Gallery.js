@@ -15,27 +15,27 @@ let pictures = [
     {
       'index': '0',
       'pic': butterfly,
-      'alt': 'Hand drawn color picture of a butterfly'
+      'alt': 'Hand drawn color butterfly'
     },
     {
       'index': '1',
       'pic': cherries,
-      'alt': 'Hand drawn color picture of a group of cherries'
+      'alt': 'Hand drawn color group of cherries'
     },
     {
       'index': '2',
       'pic': musicalartist,
-      'alt': 'Hand drawn color picture of Yungblood'
+      'alt': 'Hand drawn color of Yungblood'
     },
     {
       'index': '3',
       'pic': snakeandflowers,
-      'alt': 'Hand drawn picture of a snake with some flowers'
+      'alt': 'Hand drawn snake with some flowers'
     },
     {
       'index': '4',
       'pic': tiger,
-      'alt': 'Hand drawn picture of a tigers face/head'
+      'alt': 'Hand drawn tigers face/head'
     }
 ];
 
