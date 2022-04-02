@@ -1,0 +1,50 @@
+
+.outerContact {
+    /* background-color: azure; */
+}
+
+.innerContact {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.header {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contactPara {
+    font-size: 1.5rem;
+}
+
+.buttonWrap {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 5rem;
+}
+
+.buttons {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: aliceblue;
+    width: 20rem;
+    height: 6rem;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.buttons:hover  {
+    cursor: pointer;
+    border: none;
+    background-color: #4c0d57;
+    color: aliceblue;
+}
+
+.instaButt {
+    margin-right: 3rem;
+}
+
+.emailButt {
+    margin-left: 3rem;
+}

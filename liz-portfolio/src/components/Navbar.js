@@ -5,11 +5,12 @@ import { Link } from 'react-router-dom'
 //Style imports
 import '../styles/navbar.css'
 
+
 const Navbar = () => {
   return (
     <div className='outerNavWrap'>
         <div className='innerNavWrap'>
-            <div className='navWrap'>
+            <nav className='navWrap'>
               <Link to='/'>
                 <button className='button butt1'>About</button>
               </Link>
@@ -19,7 +20,7 @@ const Navbar = () => {
               <Link to='/contact'>
                 <button className='button butt2'>Contact</button>
               </Link>
-            </div>
+            </nav>
         </div>
     </div>
   )
