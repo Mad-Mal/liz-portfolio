@@ -1,5 +1,6 @@
 //Imports
 import { Route, Routes } from 'react-router-dom'
+import Header from './components/Header'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Gallery from './components/Gallery'
@@ -14,6 +15,7 @@ function App() {
     <div className="outerAppWrapper">
       <div className='innerAppWrapper'>
         <Navbar />
+        <Header />
           <Routes>
             <Route path='/' exact element={<About />}></Route>
             <Route path='/gallery' element={<Gallery />}></Route>

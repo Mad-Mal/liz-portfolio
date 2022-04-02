@@ -1,0 +1,17 @@
+
+
+.outerNavWrap {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    background-image: linear-gradient(to right bottom, #ab9dd6a6, #301934ad), url(../img/waves-purple-blue-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 0 100%);
+    margin-bottom: 10rem;
+    z-index: 1;
+}
+
+.innerNavWrap {
+    width: 100%;
+}
