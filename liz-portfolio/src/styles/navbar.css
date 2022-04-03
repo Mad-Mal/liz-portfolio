@@ -2,19 +2,22 @@
 /* #CBC3E3
 #9370db
 #301934 */
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
 .navWrap {
     width: 100%;
-    height: 6rem;
+    height: 4.5rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
-    background: rgb(107,27,227);
-    background: radial-gradient(circle, rgba(107, 27, 227, 0.596) 0%, rgba(151, 14, 214, 0.568) 33%, rgba(162,128,242,1) 100%);
+    background-image: linear-gradient(to right bottom, #ab9dd6a6, #301934ad), url(../img/waves-purple-blue-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: bottom;
     position: sticky;
     top: 0;
     z-index: 2;
+    margin-bottom: 2rem;
 }
 
 .button {
@@ -25,6 +28,8 @@
     font-weight: 900;
     font-size:x-large;
     color: white;
+    font-family: 'Italiana' , serif;
+    letter-spacing: 0.5rem;
 }
 
 .button:hover {

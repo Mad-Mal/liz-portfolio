@@ -8,9 +8,7 @@ const Footer = () => {
   return (
     <div className='outerFootWrap'>
         <div className='innerFootWrap'>
-            <div className='navWrap'>
-
-            </div>
+          
         </div>
     </div>
   )

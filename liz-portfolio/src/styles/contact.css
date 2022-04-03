@@ -1,7 +1,5 @@
 
-.outerContact {
-    /* background-color: azure; */
-}
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
 .innerContact {
     display: flex;
@@ -11,11 +9,17 @@
 
 .header {
     font-size: 5rem;
+    font-weight: 600;
     margin-bottom: 5rem;
+    letter-spacing: 0.5rem;
 }
 
 .contactPara {
+    width: 50%;
     font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.25rem;
+    text-align: center;
 }
 
 .buttonWrap {
@@ -25,20 +29,21 @@
 }
 
 .buttons {
-    border: 2px solid black;
-    border-radius: 12px;
-    background-color: aliceblue;
+    border: none;
+    background-image: linear-gradient(to right bottom, #ab9dd6a6, #301934ad), url(../img/waves-purple-blue-wallpaper-preview.jpg);
+    background-size: cover;
+    color: transparent;
     width: 20rem;
     height: 6rem;
     font-size: xx-large;
     font-weight: 600;
+    font-family: 'Italiana', serif;
+    letter-spacing: 0.5rem;
+    -webkit-background-clip: text;
 }
 
 .buttons:hover  {
     cursor: pointer;
-    border: none;
-    background-color: #4c0d57;
-    color: aliceblue;
 }
 
 .instaButt {
