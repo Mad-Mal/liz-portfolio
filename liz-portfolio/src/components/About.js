@@ -4,12 +4,15 @@ import React from 'react'
 //Style imports
 import '../styles/about.css'
 
+//Image import
+import profilePic from '../img/liz-profile-pic.jpg'
+
 const About = () => {
   return (
     <div className='outerAboutWrap'>
         <div className='innerAboutWrap'>
             <div className='imgContainer'>
-                <img  className='lizImg' src={'https://scontent-lax3-1.cdninstagram.com/v/t51.2885-19/277029687_995147348107413_6660262527198944754_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=109&_nc_ohc=pTzMR89IX8cAX_Jlj0Z&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT9Xygv86sbPU4MbJ8kLDFPdx-rgGOC-arwWkvvcas6vvw&oe=6244C70E&_nc_sid=7bff83'} alt='Profile picture of Liz' />
+                <img  className='lizImg' src={profilePic} alt='Profile picture of Liz' />
             </div>
             <div className='textContainer'>
                 <h1 className='aboutHead'>Hi, I'm Liz!</h1>

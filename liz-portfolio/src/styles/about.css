@@ -11,11 +11,13 @@
 }
 
 .imgContainer {
-
+    margin-left: 2rem;
 }
 
 .lizImg {
-
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
 }
 
 .textContainer {
